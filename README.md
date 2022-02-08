@@ -13,13 +13,16 @@ docker run -it --rm -p 5000:5000 ghcr.io/stormspectacular/testex02
 
 ## Problem 
 We have a python service providing a REST API to do some simple calculations.
+
 A sample call for the REST API is as follows:
 http://<ip>:35000/api/v1/calc_square?x=1
 
 
 ## Q1
 The sever should accept connections on port 35000 as in the example shown above.
+  
 However currently that is not the case.
+
 Fix the "docker run" command to listen on the correct port.
 
 ## Q2
