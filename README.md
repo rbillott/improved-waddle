@@ -27,6 +27,7 @@ Fix the "docker run" command to listen on the correct port.
 
 ## Q2
 Try the following queries below and observe the output of the service.
+
 Describe what is wrong.
 
 ### API queries
@@ -37,10 +38,11 @@ http://<ip>:35000/api/v1/calc_square?x=25
 
 ## Q3 
 Based on your observations in Q2, it's now time to fix the issues with the service!
+
 Find a way to modify the python code and test your changes.
 
 
-# Annex - Useful docker commands 
+## Annex - Useful docker commands 
 docker exec
 https://docs.docker.com/engine/reference/commandline/exec/
 
