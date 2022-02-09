@@ -15,7 +15,7 @@ docker run -it --rm -p 5000:5000 ghcr.io/stormspectacular/testex02
 We have a python service providing a REST API to do some simple calculations.
 
 A sample call for the REST API is as follows:
-http://<ip>:35000/api/v1/calc_square?x=1
+http://\<ip\>:35000/api/v1/calc_square?x=1
 
 
 ## Q1
@@ -31,10 +31,10 @@ Try the following queries below and observe the output of the service.
 Describe what is wrong.
 
 ### API queries
-http://<ip>:35000/api/v1/calc_square?x=1
-http://<ip>:35000/api/v1/calc_square?x=2
-http://<ip>:35000/api/v1/calc_square?x=3
-http://<ip>:35000/api/v1/calc_square?x=25
+http://\<ip\>:35000/api/v1/calc_square?x=1
+http://\<ip\>:35000/api/v1/calc_square?x=2
+http://\<ip\>:35000/api/v1/calc_square?x=3
+http://\<ip\>:35000/api/v1/calc_square?x=25
 
 ## Q3 
 Based on your observations in Q2, it's now time to fix the issues with the service!
